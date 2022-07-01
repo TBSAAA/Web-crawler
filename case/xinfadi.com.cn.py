@@ -6,25 +6,25 @@ import csv
 from datetime import datetime, timedelta
 
 # Get the time of the day as the query time. If there is no data on
-# the day, the query will go back one day, up to 5 days back.
+# the day, the query will go back one day.
 currentDateAndTime = datetime.now()
 currentDateAndTime = currentDateAndTime.strftime("%Y/%m/%d")
 flag = 1
 
+url = "http://www.xinfadi.com.cn/getPriceData.html"
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+}
+
+dic = {
+    "limit": "20",
+    "current": "1",
+    "pubDateStartTime": currentDateAndTime,
+}
 
 while True:
-    url = "http://www.xinfadi.com.cn/getPriceData.html"
-
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) "
-                      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
-    }
-
-    dic = {
-        "limit": "20",
-        "current": "1",
-        "pubDateStartTime": currentDateAndTime,
-    }
     response = requests.post(url, headers=headers, data=dic)
     response_json = response.json()
     if response_json["list"] == []:
@@ -32,7 +32,7 @@ while True:
         currentDateAndTime = currentDateAndTime.strftime("%Y/%m/%d")
         flag += 1
 
-    if flag == 6 or response_json["list"] != []:
+    else:
         break
 
     time.sleep(2)
@@ -47,22 +47,15 @@ with open("csv/xinfadi.csv", "w") as csvfile:
     # When the number of pagination is calculated, the content is crawled page by page.
     number_of_pagination = int(int(response_json["count"])/20+1)
     for j in range(number_of_pagination):
-
-        url = "http://www.xinfadi.com.cn/getPriceData.html"
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) "
-                          "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
-        }
-
-        dic = {
+        dic_pagination = {
             "limit": "20",
             "current": j+1,
             "pubDateStartTime": currentDateAndTime,
         }
-        response = requests.post(url, headers=headers, data=dic)
+        response = requests.post(url, headers=headers, data=dic_pagination)
         response_json = response.json()
         # Get all product information on the current page.
-        for i in range(int(response_json["limit"])):
+        for i in range(len(response_json["list"])):
             primary_classification = response_json["list"][i]["prodCat"]
             Secondary_classification = response_json["list"][i]["prodPcat"]
             product_name = response_json["list"][i]["prodName"]
