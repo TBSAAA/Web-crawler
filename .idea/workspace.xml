@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c85210c3-6d06-433d-b6c5-d95546f253e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_analysis/movie_rank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Web crawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Web crawler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_data_filter_regular_expression/bs4_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_data_filter_regular_expression/bs4_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/xinfadi.com.cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/xinfadi.com.cn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/China_move_rank.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/China_move_rank.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/movie_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/movie_rank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +63,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xpath_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Web crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,6 +110,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.movie_rank" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.xpath_model" />
       </list>
     </recent_temporary>
@@ -105,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656683706869</updated>
-      <workItem from="1656683710574" duration="13661000" />
+      <workItem from="1656683710574" duration="18030000" />
     </task>
     <servers />
   </component>
@@ -125,6 +143,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Web_crawler$xpath_model.coverage" NAME="xpath_model Coverage Results" MODIFIED="1656730389059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_data_filter_regular_expression" />
-    <SUITE FILE_PATH="coverage/Web_crawler$movie_rank.coverage" NAME="movie_rank Coverage Results" MODIFIED="1656740609950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_analysis" />
+    <SUITE FILE_PATH="coverage/Web_crawler$test.coverage" NAME="test Coverage Results" MODIFIED="1656743989846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Web_crawler$movie_rank.coverage" NAME="movie_rank Coverage Results" MODIFIED="1656745235427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_analysis" />
   </component>
 </project>
