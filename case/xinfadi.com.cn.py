@@ -34,7 +34,7 @@ while True:
 
     else:
         break
-
+    response.close()
     time.sleep(2)
 
 print(f"Start getting the latest data for {currentDateAndTime}.")
@@ -73,4 +73,5 @@ with open("csv/xinfadi.csv", "w") as csvfile:
                  product_high_price, special_info, place_of_origin, unit_info, public_time])
 
         time.sleep(2)
+        response.close()
         print(f"Current progress: {j+1}/{number_of_pagination}")

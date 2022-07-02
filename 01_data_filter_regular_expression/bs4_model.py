@@ -19,6 +19,7 @@ def get_bs4_object(page_url):
     page_source = response.text
     # Parse the page source code to get the href value in the a tag.
     bs4_object = BeautifulSoup(page_source, "html.parser")
+    response.close()
     time.sleep(1)
     return bs4_object
 
@@ -47,9 +48,10 @@ if __name__ == "__main__":
             img_1080_src = image_page_1080.find("img").get("src")
             # download the image
             img_response = requests.get(img_1080_src, headers=headers)
-            time.sleep(1)
             print(f"Downloading the image {img_1080_src}.")
             file_name = img_1080_src.split("/")[-1]
             with open(f"image/{file_name}", "wb") as f:
                 f.write(img_response.content)
+            img_response.close()
+            time.sleep(1)
 
