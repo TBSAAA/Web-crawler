@@ -18,3 +18,5 @@ cookie = response.cookies  # requestscookieJar
 bookshelf_url = "https://user.17k.com/ck/author/shelf?page=1&appKey=2406394919"
 response_bookshelf = requests.get(bookshelf_url, cookies=cookie, headers=headers)
 print(response_bookshelf.text)
+response.close()
+response_bookshelf.close()
