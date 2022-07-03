@@ -13,7 +13,7 @@ def is_number(s):
 def top_20_rank():
     top_list = []
     lowest = 0
-    with open("China_move_rank.csv", "r") as csvfile:
+    with open("data/China_move_rank.csv", "r") as csvfile:
         reader = csv.reader(csvfile)
         for row in islice(reader, 1, None):
             # If there is no box office data, skip the movie.
@@ -36,7 +36,7 @@ def top_20_rank():
 def bottom_20_rank():
     bottom_list = []
     highest = 0
-    with open("China_move_rank.csv", "r") as csvfile:
+    with open("data/China_move_rank.csv", "r") as csvfile:
         reader = csv.reader(csvfile)
         for row in islice(reader, 1, None):
             # If there is no box office data, skip the movie.
