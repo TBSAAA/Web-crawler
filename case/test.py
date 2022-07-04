@@ -1,18 +1,20 @@
+import requests
 
+url = "https://www.xiurenji.vip/uploadfile/202110/20/1F214426892.jpg"
 
-# 2797501328
-# $2,797,501,328
+headers = {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+}
 
-str = "2797501328"
-str_list = list(str)
-final_list = []
-length = len(str_list)
-for i in range(1, length+1):
-    final_list.append(str_list.pop(-1))
-    if i % 3 == 0:
-        final_list.append(",")
-    if i == length:
-        final_list.append("$")
-final_list.reverse()
-print("".join(final_list))
+response = requests.get(url, headers=headers)
+content = response.content
 
+file_name = url.split("/")[-1]
+
+with open(file_name, mode="wb") as f:
+    f.write(content)
+    f.close()
+    print(f"{file_name} downloaded.")
+
+response.close()
