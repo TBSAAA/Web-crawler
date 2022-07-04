@@ -5,7 +5,7 @@ url = "https://fanyi.baidu.com/sug"
 
 # prepare data
 data = {
-    "kw": "Susie"
+    "kw": "test"
 }
 
 # From Data => data
