@@ -18,10 +18,8 @@ async def download_chapter(chapter_url, file_path):
             tree = etree.HTML(page_source)
             content = tree.xpath("//div[@class='content']/p/text()")[:-3]
             content = "\n".join(content).replace("　", "").replace("\r", "").replace(" ", "").strip()
-
             async with aiofiles.open(file_path, "w", encoding="utf-8") as f:
                 await f.write(content)
-
 
 
 async def prepare_download(info):
