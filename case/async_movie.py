@@ -186,20 +186,20 @@ def get_ifram_url(url):
 
 
 def main():
-    # url = "http://www.wbdy.tv/play/63690_1_1.html"
-    # # get iframe url
-    # iframe_url = get_ifram_url(url)
-    # iframe_url = urljoin(url, iframe_url)
-    # # Get the url of m3u8 through iframe url
-    # m3u8 = get_m3u8_url(iframe_url)
-    # # download m3u8 file
-    # download_m3u8(m3u8)
-    # # Download movies via m3u8
-    # asyncio.run(download_movie())
+    url = "http://www.wbdy.tv/play/63690_1_1.html"
+    # get iframe url
+    iframe_url = get_ifram_url(url)
+    iframe_url = urljoin(url, iframe_url)
+    # Get the url of m3u8 through iframe url
+    m3u8 = get_m3u8_url(iframe_url)
+    # download m3u8 file
+    download_m3u8(m3u8)
+    # Download movies via m3u8
+    asyncio.run(download_movie())
     # Get decrypted key
-    # key = get_key()
+    key = get_key()
     # Decrypt
-    # asyncio.run(decrypt(key))
+    asyncio.run(decrypt(key))
     # merge the clip
     merge_movie_clip()
 
