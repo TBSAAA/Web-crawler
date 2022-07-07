@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -26,5 +28,16 @@ for job in job_list:
         job_type = job_type.split('\n')[0]
     except:
         job_type = 'N/A'
-    print("job title: " + job_title, "job company: " + job_company, "company location: " + company_location, "salary: " + salary, "job type: " + job_type)
 
+    print(job_title, job_company, company_location, salary, job_type)
+
+    # a_tag = job.find_element(By.XPATH, './/td[@class="resultContent"]//a')
+    # a_tag.click()
+    # time.sleep(5)
+    # iframe = web.find_element(By.XPATH, '//iframe[@id="vjs-container-iframe"]')
+    # web.switch_to.frame(iframe)
+    # job_description = web.find_elements(By.XPATH, '//*[@id="jobDescriptionText"]//p')
+    # for p in job_description:
+    #     print(p.text)
+    # web.switch_to.parent_frame()
+    # break
