@@ -30,7 +30,7 @@ def parse_data(page_source):
         house_total_price = "".join(house_total_price).strip()
         house_price_per_square = li.xpath('.//*[@class="priceInfo"]/div[2]//text()')
         house_price_per_square = house_price_per_square[0]
-        per_info ={
+        per_info = {
             'title': title,
             'position': position,
             'house_info': house_info,
@@ -40,18 +40,19 @@ def parse_data(page_source):
         all_info.append(per_info)
     return all_info
 
+
 def save_data_to_mongo(all_info):
     connection = pymongo.MongoClient(host='localhost', port=27017)
     db = connection['crawler_spider']
     db.lianjia.insert_many(all_info)
     print('save data to mongo success')
 
+
 def main():
     url = 'https://cd.lianjia.com/ershoufang/'
     page_source = get_page_source(url)
     data = parse_data(page_source)
     save_data_to_mongo(data)
-
 
 
 if __name__ == '__main__':
