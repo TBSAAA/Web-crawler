@@ -13,3 +13,4 @@ db = connection['crawler_spider']
 result = db.test.find({}, {"_id": 0, "age": 1})
 for i in result:
     print(i)
+  
