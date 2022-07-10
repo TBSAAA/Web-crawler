@@ -1,4 +1,5 @@
 import pymysql
+from pymysql.cursors import DictCursor
 
 connection = pymysql.connect(
     host='localhost',
@@ -8,7 +9,7 @@ connection = pymysql.connect(
     database='web_spider',
 )
 
-cur = connection.cursor()
+cur = connection.cursor(DictCursor)
 # search data
 sql_search = "select * from students;"
 cur.execute(sql_search)
@@ -16,4 +17,7 @@ cur.execute(sql_search)
 # result_all = cur.fetchall()
 # print("all",result_all)
 result_one = cur.fetchone()
-print("one",result_one)
+print(result_one)
+
+cur.close()  # disconnect cursor
+connection.close()  # disconnect
