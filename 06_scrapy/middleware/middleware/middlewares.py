@@ -4,7 +4,12 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+from selenium.webdriver import Chrome
+from selenium.webdriver.common.by import By
+from scrapy.http.response.html import HtmlResponse
+from selenium.webdriver.chrome.options import Options
+import time
+from middleware.req import SeleniumRequest
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
 
@@ -66,19 +71,29 @@ class MiddlewareDownloaderMiddleware:
         # This method is used by Scrapy to create your spiders.
         s = cls()
         crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)
+        crawler.signals.connect(s.spider_closed, signal=signals.spider_closed)
         return s
 
-    def process_request(self, request, spider):
-        # Called for each request that goes through the downloader
-        # middleware.
+    def spider_opened(self, spider):
+        opt = Options()
+        opt.add_argument("--headless")
+        opt.add_argument('--disable-gpu')
+        opt.add_argument("--window-size=4000,1600")
+        self.web = Chrome(options=opt)
+        self.web.implicitly_wait(10)
 
-        # Must either:
-        # - return None: continue processing this request
-        # - or return a Response object
-        # - or return a Request object
-        # - or raise IgnoreRequest: process_exception() methods of
-        #   installed downloader middleware will be called
-        return None
+    def spider_closed(self, spider):
+        self.web.close()
+
+    def process_request(self, request, spider):
+        if isinstance(request, SeleniumRequest):
+            self.web.get(request.url)
+            self.web.find_element(By.XPATH, '//*[@id="header"]/div[1]/div[3]/div/a[1]')
+            page_source = self.web.page_source
+            response = HtmlResponse(status=200, body=page_source, url=request.url, encoding="utf-8", request=request)
+            return response
+        else:
+            return None
 
     def process_response(self, request, response, spider):
         # Called with the response returned from the downloader.
@@ -98,6 +113,3 @@ class MiddlewareDownloaderMiddleware:
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
         pass
-
-    def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
