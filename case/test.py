@@ -13,5 +13,5 @@ with open("wft.txt", mode="w", encoding="utf-8") as f:
         content = item.xpath('.//div[@class="title"]/text()')[0].strip().replace("\n", "").replace("   ", "")
         tag = item.xpath('.//div[@class="detail-list-left"]/span[1]/text()')[0].strip()
         if tag == "极高频":
-            f.write(content + "     " + tag + "\n")
-            print(content, tag)
+            f.write(content +"\n")
+            print(content)

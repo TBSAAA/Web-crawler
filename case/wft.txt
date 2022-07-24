@@ -1,103 +1,176 @@
-1.I thought a good architectural structure should be useful, durable and beautiful.     极高频
-2.A person’s educational level is closely associated with their social and economic background.     极高频
-3.All dissertations must be accompanied by a submission form.     极高频
-4.All of the assignments must be submitted in person to the faculty office.     极高频
-5.The educational reforms have been inadequately implemented.     极高频
-6.Students will develop confidence in their ability to think critically.     极高频
-7.Certain scientific principles must be learned verbally or by logical deduction.     极高频
-8.Consumer confidence has a direct influence on sales.     极高频
-9.Convincing evidence to support this theory is hard to obtain.     极高频
-10.It is really a comprehensive program comprising both theory and practice.     极高频
-11.Listening is the key skill to succeed in this course.     极高频
-12.Many birds migrate to warmer areas for the winter.     极高频
-13.Most university teaching takes place in lectures and seminars.     极高频
-14.Packaging is very important to attract the attention of a buyer.     极高频
-15.Peer pressure has a great effect on young people.     极高频
-16.Please check the information on the website for the opening times.     极高频
-17.Please note that the submission deadlines are only negotiable in exceptional circumstances.     极高频
-18.The supposed benefit of space exploration has been frequently questioned.     极高频
-19.She has made a significant contribution to the field of chemistry.     极高频
-20.Some departments have their own special book collections     极高频
-21.Statistical results should be expressed in different ways depending on the circumstances.     极高频
-22.Students are advised to use multiple methods for this project.     极高频
-23.The author’s early works were more experimental and less philosophical.     极高频
-24.The cafeteria features soup, salads, sandwiches, chicken and fish.     极高频
-25.The designers will complete the plan later today.     极高频
-26.The earth atmosphere is primarily composed of nitrogen and oxygen gases.     极高频
-27.The history of the university is a long and interesting one.     极高频
-28.The key findings seemed to contradict our initial hypothesis.     极高频
-29.The results of the study underscored the importance of early detection.     极高频
-30.There are some doubts about whether these events actually occurred.     极高频
-31.There is clearly a need for further research in this field.     极高频
-32.This class will look at the structure of an essay.     极高频
-33.University fees are expected to increase next year.     极高频
-34.When parents talk to children, the tense is simplified.     极高频
-35.You will acquire many skills during the academic studies.     极高频
-36.Speak to your tutor if you require further assistance.     极高频
-37.Education and training provide important skills for the labor force.     极高频
-38.Global connections thrived in academic communities, thanks to social media.     极高频
-39.Several candidates are qualified as the greatest scientists of all time.     极高频
-40.There are opportunities to receive grants in most artistic fields.     极高频
-41.There is a welcome party for all new students for each term.     极高频
-42.Those who are considering a career in marketing should attend the talk.     极高频
-43.Collaboration between departments is a feature of successful companies.     极高频
-44.In this language course, we focus on both fluency and accuracy.     极高频
-45.One of the election promises is to decrease income taxes.     极高频
-46.This course provides the opportunity to get valuable industry experience.     极高频
-47.The ability to work with fellow students cannot be stressed enough.     极高频
-48.Archeologists discovered tools and other artifacts near the ancient tomb.     极高频
-49.Calculators may not be used during the examination.     极高频
-50.The site is designed to be highly interactive.     极高频
-51.Tomorrow’s lecture will discuss the educational policy in the United States.     极高频
-52.You should submit your term papers to the general office.     极高频
-53.Key business partners are often intertwined in expense accounts.     极高频
-54.Scientists were unsure when the early men first left Africa.     极高频
-55.It is necessary to dress formally for the graduation ceremony.     极高频
-56.Consumer confidence tends to increase as the economy expands.     极高频
-57.This book can be borrowed for a maximum of one week.     极高频
-58.Distance learning allows you to develop a career around your commitments.     极高频
-59.Measures must be taken to prevent the unemployment rate from increasing.     极高频
-60.Classical mechanics is sometimes considered as a branch of applied mathematics.     极高频
-61.New materials and techniques are changing the style of modern architecture.     极高频
-62.Information technology has changed the way people study today.     极高频
-63.Practical experiment is an essential part of the chemistry course.     极高频
-64.The digital camera has some advantages over traditional film.     极高频
-65.There is no fixed career path for a qualified journalist.     极高频
-66.You need to hand in an essay next semester.     极高频
-67.Parents are financially responsible for their children up until they reach adulthood.     极高频
-68.Students are encouraged to think carefully about their accommodation needs.     极高频
-69.Peer review is an essential part of scientific methods.     极高频
-70.Advanced technology created growth in the economy.     极高频
-71.A lack of sleep can increase the chance of getting some illnesses.     极高频
-72.The north campus car park could be closed on Sunday.     极高频
-73.Banks charge interest on the money they lent to customers     极高频
-74.Scientists have found all parts of society today.     极高频
-75.Physics is the key subject to understanding the world and the universe.     极高频
-76.The new camera can identify your eyes and focus on them.     极高频
-77.There is a pharmacy on campus near the bookstore.     极高频
-78.In language learning, a systematic method of categorizing new vocabulary is essential.     极高频
-79.Students will focus on reporting news on changing the media world.     极高频
-80.The lecture today will cover all the main reasons for global warming.     极高频
-81.Studies showed there is a positive correlation between the two variables.     极高频
-82.You should have awareness of how the business operates globally.     极高频
-83.The dance department stages elaborated performances each semester.     极高频
-84.An architect is required to have problem-solving skills and an eye for design.     极高频
-85.Student representatives will be visiting the classrooms with voting forms.     极高频
-86.The article considers the leisure habits of teenagers in rural areas.     极高频
-87.Read the first section before the next meeting.     极高频
-88.A wide range of courses covered different aspects in this subject.     极高频
-89.The subject was complex and difficult to answer.     极高频
-90.In his lifetime, he composed a large number of works.     极高频
-91.Each department has their own style of guidelines for assignments.     极高频
-92.The field of journalism has been seen in decline in the decades.     极高频
-93.The geography examination will take place in the sports hall.     极高频
-94.Students should visit the lecture hall behind the building.     极高频
-95.You need student identification to borrow books from the library.     极高频
-96.The temporary library will be closed in the winter break.     极高频
-97.It is essential for companies to reduce the amount of harmful gases released into the atmosphere.     极高频
-98.Each organ of your body is a complex living system.     极高频
-99.The exam system has been upgraded due to professional exams.     极高频
-100.In addition to these requirements, students must pass all the qualified examinations.     极高频
-101.We are considering all the candidates' background and identities.     极高频
-102.Our aim is to reduce the risk that people take.     极高频
-103.You must wear clean shoes when working in the lab.     极高频
+1.I thought a good architectural structure should be useful, durable and beautiful.
+2.A person’s educational level is closely associated with their social and economic background.
+3.All dissertations must be accompanied by a submission form.
+4.All of the assignments must be submitted in person to the faculty office.
+5.All students are expected to attend ten lab sessions per semester.
+6.Our views on educational reforms have been inadequately implemented.
+7.Most scientists believe that climate change threatens the lives on earth.
+8.An introduction is an essential element of presentation
+9.Students will develop confidence in their ability to think critically.
+10.Certain scientific principles must be learned verbally or by logical deduction.
+11.Consumer confidence has a direct influence on sales.
+12.Convincing evidence to support this theory is hard to obtain.
+13.Daily practice can build confidence and improve skills.
+14.Economic streams of the early Roman Republic will be examined.
+15.Many experts think that the world climate is constantly changing.
+16.If you need additional help, visit the student resolution center.
+17.Important details from the argument are missing in the summary.
+18.It is really a comprehensive program comprising both theory and practice.
+19.We are researching the most significant challenges we are facing in our society today.
+20.Listening is the key skill to succeed in this course.
+21.Many birds migrate to warmer areas for the winter.
+22.Most university teaching takes place in lectures and seminars.
+23.Organizational failure is considered from various perspectives in academic literature.
+24.The university theater group will be performing in the concert hall.
+25.Packaging is very important to attract the attention of a buyer.
+26.Peer pressure has a great effect on young people.
+27.Plants are the living things that can grow in land or in water.
+28.Please check the information on the website for the opening times.
+29.Please note that the submission deadlines are only negotiable in exceptional circumstances.
+30.Public perception about biotechnology is crucial for developing scientific consensus.
+31.The supposed benefit of space exploration has been frequently questioned.
+32.She has made a significant contribution to the field of chemistry.
+33.Some departments have their own special book collections
+34.Some economists argue that the entire financial system is fatally flawed.
+35.Some students find that true or false questions are harder than short answer questions.
+36.Statistical results should be expressed in different ways depending on the circumstances.
+37.Students are advised to use multiple methods for this project.
+38.Students requiring an extension should apply sooner rather than later.
+39.The author’s early works were less philosophical and more experimental .
+40.The cafeteria features soup, salads, sandwiches, chicken and fish.
+41.The designers will complete the plan later today.
+42.The earth atmosphere is primarily composed of nitrogen and oxygen gases.
+43.The faculty staff are very approachable, helpful and extremely friendly.
+44.The history of the university is a long and interesting one.
+45.The key difference between courses is the kind of assessment.
+46.The key findings seemed to contradict our initial hypothesis.
+47.The massive accumulation of data was converted into a communicable argument.
+48.The railway makes long-distance travel possible for everyone.
+49.The results of the study underscored the importance of early detection.
+50.The summer course has been canceled due to insufficient enrollment.
+51.Safety glasses should be worn while doing experiments in the lab.
+52.The university library has most of the necessary books.
+53.There are some doubts about whether these events actually occurred.
+54.There is clearly a need for further research in this field.
+55.This class will look at the structure of an essay.
+56.Those seeking a formal extension should contact their faculty for information.
+57.University fees are expected to increase next year.
+58.We have not yet achieved equality in our society.
+59.When parents talk to children, the tense is simplified.
+60.Writing an essay is easy once the research has been finished.
+61.You will acquire many skills during the academic studies.
+62.Speak to your tutor if you require further assistance.
+63.Education and training provide important skills for the labor force.
+64.Find out how to get resources before your research.
+65.Global connections thrived in academic communities, thanks to social media.
+66.Several candidates are qualified as the greatest scientists of all time.
+67.Theater study courses encourage students to exercise creativity.
+68.There are opportunities to receive grants in most artistic fields.
+69.There is a welcome party for all new students for each term.
+70.Those who are considering a career in marketing should attend the talk.
+71.A good academic paper should be clear.
+72.New credit cards will soon use fingerprint technology.
+73.Collaboration between departments is a feature of successful companies.
+74.In this language course, we focus on both fluency and accuracy.
+75.One of the election promises is to decrease income taxes.
+76.This course provides the opportunity to get valuable industry experience.
+77.The ability to work with fellow students cannot be stressed enough.
+78.Archeologists discovered tools and other artifacts near the ancient tomb.
+79.Calculators may not be used during the examination.
+80.The elective course introduces engineering students to construction practices and concepts.
+81.All medical students must attend the talk about optional courses.
+82.The site is designed to be highly interactive.
+83.Tomorrow’s lecture will discuss the educational policy in the United States.
+84.You should submit your term papers to the general office.
+85.Key business partners are often intertwined in expense accounts.
+86.Scientists were unsure when the early men first left Africa.
+87.It is necessary to dress formally for the graduation ceremony.
+88.Consumer confidence tends to increase as the economy expands.
+89.This book can be borrowed for a maximum of one week.
+90.Distance learning allows you to develop a career around your commitments.
+91.Measures must be taken to prevent the unemployment rate from increasing.
+92.It takes a long time to walk to university.
+93.Neuroscience is a compound of completely separate parts.
+94.New developments in manufacturing are constantly changing the way we live.
+95.Classical mechanics is sometimes considered as a branch of applied mathematics.
+96.New materials and techniques are changing the style of modern architecture.
+97.Information technology has changed the way people study today.
+98.Relying on natural ability will not get you far in science.
+99.Practical experiment is an essential part of the chemistry course.
+100.The employment opportunities available in engineering are increasing rapidly.
+101.The digital camera has some advantages over traditional film.
+102.Students must attend the safety instruction course before entering the engineering workshop.
+103.There is no fixed career path for a qualified journalist.
+104.The commissioner will apportion the funds among all the authorities.
+105.Please note that the seminar has now been canceled due to insufficient enrollment.
+106.The program must be conducted in abidance with general regulations.
+107.New media has a significant impact on human communications.
+108.Statistically speaking, the likelihood of this result is extremely low.
+109.We are phasing out disposable cups on campus.
+110.You need to hand in an essay next semester.
+111.The employment demand in engineering is increasing rapidly.
+112.Parents are financially responsible for their children up until they reach adulthood.
+113. It is important to make clear notes when you are reading.
+114.A world-renowned expert in financial management will give a guest lecture.
+115.Students are encouraged to think carefully about their accommodation needs.
+116.Peer review is an essential part of scientific methods.
+117.Advanced technology created growth in the economy.
+118.A lack of sleep can increase the chance of getting some illnesses.
+119.This is a compulsory course, so make sure you attend.
+120.The north campus car park could be closed on Sunday.
+121.We aim to develop a partnership with the government and financial institutions.
+122.A typical part of the course involves the study of society.
+123.Much of this research is carried out in the laboratory.
+124.Banks charge interest on the money they lent to customers
+125.Scientists have found all parts of society today.
+126.The sports teams often exercise on weekdays and play games on weekends.
+127.Novelists write about the best things that they know about.
+128.Physics is the key subject to understanding the world and the universe.
+129.Practical experience is a vital part of legal training.
+130.A trade between two companies has been just announced.
+131.The new camera can identify your eyes and focus on them.
+132.There is a pharmacy on campus near the bookstore.
+133.In language learning, a systematic method of categorizing new vocabulary is essential.
+134.Students will focus on reporting news on changing the media world.
+135.The lecture today will cover all the main reasons for global warming.
+136.The rising temperature is changing the wildlife population.
+137.The director of the gallery was grateful for the anonymous donation.
+138.Studies showed there is a positive correlation between the two variables.
+139.You should have awareness of how the business operates globally.
+140.Art is an expression of creative skills and imagination.
+141.The library holds a miraculous collection of books on economic history.
+142.Building trust is not something that can be achieved overnight.
+143.We have sophisticated ways to study brain actions.
+144.The dance department stages elaborated performances each semester.
+145.An architect is required to have problem-solving skills and an eye for design.
+146.Student representatives will be visiting the classrooms with voting forms.
+147.The article considers the leisure habits of teenagers in rural areas.
+148.Read the first section before the next meeting.
+149.The university will seek a colossal renovation to the plain empty theater.
+150.A wide range of courses covered different aspects in this subject.
+151.Scientists learned through observations and the analysis of human behavior.
+152.The subject was complex and difficult to answer.
+153.In his lifetime, he composed a large number of works.
+154.Each department has their own style of guidelines for assignments.
+155.The field of journalism has been seen in decline in the past decades.
+156.The geography examination will take place in the sports hall.
+157.Students should visit the lecture hall behind the building.
+158.You need student identification to borrow books from the library.
+159.The campus library will be closed during the winter break.
+160.It is essential for companies to reduce the amount of harmful gases released into the atmosphere.
+161.Each organ of your body is a complex living system.
+162.The exam system has been upgraded due to professional exams.
+163.In addition to these requirements, students must pass all the qualifying examinations.
+164.We are committed to recruit candidates with consideration of their background and identities.
+165.Our aim is to reduce the risk that people take.
+166.You must wear closed shoes when working in the lab.
+167.New media has transformed traditional national boundaries.
+168.Please confirm that you have received the textbook.
+169.Learning a foreign language takes a lot of effort.
+170.The introduction of railway greatly contributed to the revolution of train industry.
+171.One student representative will be selected from each class.
+172.Researchers found that trees can relieve stress and anxiety.
+173.All of your arguments must be supported by evidence and relevant theories.
+174.I cannot hand out my student dissertation this week.
+175.Marketing is important to businesses.
+176.Theater study courses encourage students to enhance their ability of creativity.
